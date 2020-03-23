@@ -53,6 +53,7 @@ $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-cdsp.mk
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-cne-ims-qmi-ril.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-consumerir.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-dirac.mk)
+$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-dolby.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-dpm.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-drm.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-gatekeeper.mk)
