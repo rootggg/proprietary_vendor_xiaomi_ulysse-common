@@ -140,6 +140,54 @@ LensInfo : Information of the lens present in the module.
 		</LensInfo>
 	</CameraModuleConfig>	
 	<CameraModuleConfig>
+		<CameraId>1</CameraId>
+		<SensorName>s5k5e8_oef0501_d6</SensorName>
+		<EepromName>s5k5e8_oef0501_ofilm</EepromName>
+		<ChromatixName_india>s5k5e8_oef0501_ofilm_d6_chromatix_india</ChromatixName_india>
+		<ChromatixName>s5k5e8_oef0501_ofilm_d6_chromatix</ChromatixName>
+		<ModesSupported>1</ModesSupported>
+		<Position>FRONT</Position>
+		<MountAngle>270</MountAngle>
+		<CSIInfo>
+			<CSIDCore>1</CSIDCore>
+			<LaneMask>0x7</LaneMask>
+			<LaneAssign>0x4320</LaneAssign>
+			<ComboMode>0</ComboMode>
+		</CSIInfo>
+		<LensInfo>
+			<FocalLength>2.63</FocalLength>
+			<FNumber>2.0</FNumber>
+			<TotalFocusDistance>1.97</TotalFocusDistance>
+			<HorizontalViewAngle>57.5</HorizontalViewAngle>
+			<VerticalViewAngle>44.8</VerticalViewAngle>
+			<MinFocusDistance>0.1</MinFocusDistance>
+		</LensInfo>
+	</CameraModuleConfig>
+        <CameraModuleConfig>
+		<CameraId>1</CameraId>
+		<SensorName>s5k5e8_f5e8ybf_d6</SensorName>
+		<EepromName>s5k5e8_f5e8ybf_qtech</EepromName>
+		<ChromatixName_india>s5k5e8_f5e8ybf_qtech_d6_chromatix_india</ChromatixName_india>
+		<ChromatixName>s5k5e8_f5e8ybf_qtech_d6_chromatix</ChromatixName>
+		<ModesSupported>1</ModesSupported>
+		<Position>FRONT</Position>
+		<MountAngle>270</MountAngle>
+		<CSIInfo>
+			<CSIDCore>1</CSIDCore>
+			<LaneMask>0x7</LaneMask>
+			<LaneAssign>0x4320</LaneAssign>
+			<ComboMode>0</ComboMode>
+		</CSIInfo>
+		<LensInfo>
+			<FocalLength>2.63</FocalLength>
+			<FNumber>2.0</FNumber>
+			<TotalFocusDistance>1.97</TotalFocusDistance>
+			<HorizontalViewAngle>59.3</HorizontalViewAngle>
+			<VerticalViewAngle>46.1</VerticalViewAngle>
+			<MinFocusDistance>0.1</MinFocusDistance>
+		</LensInfo>
+	</CameraModuleConfig>
+	<CameraModuleConfig>
 		<CameraId>2</CameraId>
 		<SensorName>s5k3p8sp_d16s01n_d6s</SensorName>
 		<FlashName>gpio</FlashName>
