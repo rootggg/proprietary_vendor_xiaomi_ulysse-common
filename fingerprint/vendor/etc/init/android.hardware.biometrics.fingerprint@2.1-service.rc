@@ -3,6 +3,7 @@ service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.
     user system
     group system uhid input
     writepid /dev/cpuset/system-background/tasks
+    disabled
 
 on post-fs-data
     mkdir /data/vendor/fpc 0770 system system
@@ -19,3 +20,6 @@ service vendor.move_fingerprint_data /system/bin/move_fingerprint_data.sh
     group system
     disabled
     oneshot
+
+on property:ro.product.device=ugg
+    start vendor.fps_hal
