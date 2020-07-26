@@ -669,6 +669,7 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    WfdCommon
+    WfdCommon \
+    chargeonlymode
 
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-*.mk)
