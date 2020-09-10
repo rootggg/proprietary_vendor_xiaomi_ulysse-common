@@ -293,6 +293,6 @@ cc_prebuilt_library_shared {
 cc_prebuilt_binary {
 	name: "chargeonlymode",
 	owner: "xiaomi",
-	srcs: ["proprietary/bin/chargeonlymode"],
+	srcs: ["charger/bin/chargeonlymode"],
 	prefer: true,
 }
