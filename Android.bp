@@ -122,10 +122,10 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/libtime_genoff.so"],
+			srcs: ["time/vendor/lib/libtime_genoff.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libtime_genoff.so"],
+			srcs: ["time/vendor/lib64/libtime_genoff.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -185,7 +185,7 @@ android_app_import {
 android_app_import {
 	name: "TimeService",
 	owner: "xiaomi",
-	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
+	apk: "time/vendor/app/TimeService/TimeService.apk",
 	certificate: ":timeservice_app_cert-legacy-um",
 	dex_preopt: {
 		enabled: false,
