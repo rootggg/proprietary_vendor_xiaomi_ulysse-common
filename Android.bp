@@ -103,10 +103,10 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/libthermalclient.so"],
+			srcs: ["thermal/vendor/lib/libthermalclient.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
+			srcs: ["thermal/vendor/lib64/libthermalclient.so"],
 		},
 	},
 	compile_multilib: "both",
