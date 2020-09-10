@@ -152,7 +152,7 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "WfdService",
 	owner: "xiaomi",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
+	apk: "wfd/priv-app/WfdService/WfdService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -254,7 +254,7 @@ android_app_import {
 dex_import {
 	name: "WfdCommon",
 	owner: "xiaomi",
-	jars: ["proprietary/framework/WfdCommon.jar"],
+	jars: ["wfd/framework/WfdCommon.jar"],
 }
 
 
