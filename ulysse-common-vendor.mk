@@ -307,7 +307,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ulysse-common/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/xiaomi/ulysse-common/proprietary/vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/xiaomi/ulysse-common/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/xiaomi/ulysse-common/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/ulysse-common/proprietary/vendor/lib64/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@2.0.so \
     vendor/xiaomi/ulysse-common/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/xiaomi/ulysse-common/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
