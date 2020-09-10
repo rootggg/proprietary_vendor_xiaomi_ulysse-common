@@ -17,10 +17,6 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/ulysse-common
 
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/ulysse-common/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
-    vendor/xiaomi/ulysse-common/proprietary/vendor/lib64/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a3xx.so
-
 PRODUCT_PACKAGES += \
     libaudio_log_utils \
     libgpustats \
