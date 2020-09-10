@@ -46,10 +46,10 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/vendor/lib/libgpustats.so"],
+			srcs: ["media/vendor/lib/libgpustats.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libgpustats.so"],
+			srcs: ["media/vendor/lib64/libgpustats.so"],
 		},
 	},
 	compile_multilib: "both",
