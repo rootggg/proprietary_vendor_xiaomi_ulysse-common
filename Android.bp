@@ -141,7 +141,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libloc_api_v02.so"],
+			srcs: ["gps/vendor/lib64/libloc_api_v02.so"],
 		},
 	},
 	compile_multilib: "64",
