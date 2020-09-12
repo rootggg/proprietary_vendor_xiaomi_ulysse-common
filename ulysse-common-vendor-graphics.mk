@@ -45,5 +45,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ulysse-common/graphics/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/ulysse-common/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
-    vendor/xiaomi/ulysse-common/proprietary/vendor/lib64/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a3xx.so
+    vendor/xiaomi/ulysse-common/graphics/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
+    vendor/xiaomi/ulysse-common/graphics/vendor/lib64/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a3xx.so
