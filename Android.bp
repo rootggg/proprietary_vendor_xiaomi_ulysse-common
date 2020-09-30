@@ -230,7 +230,7 @@ android_app_import {
 android_app_import {
 	name: "ims",
 	owner: "xiaomi",
-	apk: "cne-ims-qmi-ril/product/priv-app/ims/ims.apk",
+	apk: "ims/product/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
