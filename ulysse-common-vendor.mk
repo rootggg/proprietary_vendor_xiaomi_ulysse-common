@@ -73,6 +73,7 @@ $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-perf_co
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-perf.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-peripheral_manager.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-postprocessing.mk)
+$(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-qcril.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-qmi.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-qtee.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-ril.mk)
