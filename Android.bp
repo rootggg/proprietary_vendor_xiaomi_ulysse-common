@@ -65,10 +65,10 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["cne-ims-qmi-ril/vendor/lib/libqmiservices.so"],
+			srcs: ["qmi/vendor/lib/libqmiservices.so"],
 		},
 		android_arm64: {
-			srcs: ["cne-ims-qmi-ril/vendor/lib64/libqmiservices.so"],
+			srcs: ["qmi/vendor/lib64/libqmiservices.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -163,7 +163,7 @@ android_app_import {
 android_app_import {
 	name: "CneApp",
 	owner: "xiaomi",
-	apk: "cne-ims-qmi-ril/vendor/app/CneApp/CneApp.apk",
+	apk: "cne/vendor/app/CneApp/CneApp.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -174,7 +174,7 @@ android_app_import {
 android_app_import {
 	name: "IWlanService",
 	owner: "xiaomi",
-	apk: "cne-ims-qmi-ril/vendor/app/IWlanService/IWlanService.apk",
+	apk: "cne/vendor/app/IWlanService/IWlanService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -207,7 +207,7 @@ android_app_import {
 android_app_import {
 	name: "QtiTelephonyService",
 	owner: "xiaomi",
-	apk: "cne-ims-qmi-ril/product/app/QtiTelephonyService/QtiTelephonyService.apk",
+	apk: "ril/product/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -230,7 +230,7 @@ android_app_import {
 android_app_import {
 	name: "ims",
 	owner: "xiaomi",
-	apk: "cne-ims-qmi-ril/product/priv-app/ims/ims.apk",
+	apk: "ims/product/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -242,12 +242,45 @@ android_app_import {
 android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "xiaomi",
-	apk: "cne-ims-qmi-ril/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	apk: "ril/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "uceShimService",
+	owner: "xiaomi",
+	apk: "ims/product/app/uceShimService/uceShimService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "datastatusnotification",
+	owner: "xiaomi",
+	apk: "ril/product/app/datastatusnotification/datastatusnotification.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "embms",
+	owner: "xiaomi",
+	apk: "ril/product/app/embms/embms.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
 	product_specific: true,
 }
 
