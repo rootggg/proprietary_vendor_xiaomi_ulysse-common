@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     dpmserviceapp \
     ims \
+    imssettings \
     qcrilmsgtunnel \
     WfdCommon \
     chargeonlymode \
